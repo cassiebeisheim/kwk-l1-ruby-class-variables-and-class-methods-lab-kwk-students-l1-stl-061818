@@ -19,3 +19,8 @@ end
   
 
 end 
+
+jon_song = Song.new("Hippity Hoppity", "Jon Mendes", "Jon's Way")
+
+
+puts "boy! i sure love that song #{jon_song.genre_of_song}"
