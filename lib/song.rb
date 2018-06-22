@@ -22,5 +22,5 @@ end
 
 jon_song = Song.new("Hippity Hoppity", "Jon Mendes", "Jon's Way")
 
-
+puts jon_song.artist
 puts "boy! i sure love that song #{jon_song.name_of_song}"
