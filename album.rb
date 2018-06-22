@@ -28,4 +28,4 @@ drake_album = Album.new("Scorpion", "2018")
 
 puts "shawn mendes was made in #{shawn_mendes_album.date_of_album}"
 
-puts "#{Album.album_count}"
+puts "#{Album.count}"
