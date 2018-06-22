@@ -1,6 +1,6 @@
 class Song
   
-attr_accessor :genre, :artist, :nm 
+attr_accessor :genre, :artist, :name 
 
 def initialize(genre,artist,name) 
   @name = name
@@ -24,5 +24,5 @@ end
 
 jon_song = Song.new("Hippity Hoppity", "Jon Mendes", "Jon's Way")
 
-puts jon_song.artist_of_song
-puts "boy! i sure love that song #{jon_song.name_of_song}"
+puts jon_song.artist
+puts "boy! i sure love that song #{jon_song.name}"
