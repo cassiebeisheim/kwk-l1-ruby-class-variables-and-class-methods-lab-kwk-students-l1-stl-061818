@@ -9,7 +9,7 @@ def initialize(genre,artist,name)
 end 
 
 def self.get_count
-  @@count 
+  @@count = @@count + 1
 end 
 
 # def name_of_song
