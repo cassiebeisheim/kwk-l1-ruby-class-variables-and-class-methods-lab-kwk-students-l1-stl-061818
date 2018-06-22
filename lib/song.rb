@@ -5,18 +5,19 @@ class Song
   @genre = genre
 end 
 
-def name_of_song
-  @name
-end
+# def name_of_song
+#   @name
+# end
 
-def artist_of_song
-  @artist 
-end 
+# def artist_of_song
+#   @artist 
+# end 
 
-def genre_of_song
-  @genre 
-end 
+# def genre_of_song
+#   @genre 
+# end 
   
+attr_accessor 
 
 end 
 
