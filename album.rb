@@ -1,4 +1,4 @@
-class = Album
+class Album
   
   def initialize(name,date)
     @name=name
