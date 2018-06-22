@@ -18,4 +18,4 @@ end
 shawn_mendes_album = Album.new("Shawn Mendes", "2018")
 
 
-puts "shawn mendes was made in #{shawn_mendes_album.date}"
+puts "shawn mendes was made in #{shawn_mendes_album.date_of_album}"
