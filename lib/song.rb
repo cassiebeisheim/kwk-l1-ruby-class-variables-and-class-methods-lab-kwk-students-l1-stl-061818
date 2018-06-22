@@ -20,7 +20,7 @@ end
 end 
 
 jon_song = Song.new("Hippity Hoppity", "Jon Mendes", "Jon's Way")
-big_song - Song.new("l","n","u")
+big_song = Song.new("l","n","u")
 
 puts jon_song.artist
 puts "boy! i sure love that song #{jon_song.name}"
